@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Warwick Parking App</string>
+    <string name="app_name">ES410 Warwick Parking App</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,66 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="todo">TODO</string>
+    <string name="total_time_35_hours">Total Time: 35 hours</string>
+    <string name="total_cost_26_10">Total Cost: £26.10</string>
+    <string name="adjust_timeframe">Adjust Timeframe</string>
+    <string name="nearby">Nearby</string>
+    <string name="recent">Recent</string>
+    <string name="permits">Permits</string>
+    <string name="spaces_available_147_200">Spaces Available: 147/200</string>
+    <string name="spaces_available_129_200">Spaces Available: 129/200</string>
+    <string name="spaces_available_172_200">Spaces Available: 172/200</string>
+    <string name="spaces_available_93_200">Spaces Available: 93/200</string>
+    <string name="spaces_available_0_200">Spaces Available: 0/200</string>
+    <string name="spaces_available_45_200">Spaces Available: 45/200</string>
+    <string name="central_campus">Central Campus</string>
+    <string name="kirby_corner">Kirby Corner</string>
+    <string name="gibbet_hill">Gibbet Hill</string>
+    <string name="westwood_campus">Westwood Campus</string>
+    <string name="cryfield_village">Cryfield Village</string>
+    <string name="lynchgate">Lynchgate</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="status_quiet">Status: Quiet</string>
+    <string name="status_moderate">Status: Moderate</string>
+    <string name="status_full">Status: Full</string>
+    <string name="status_busy">Status: Busy</string>
+    <string name="distance_0_4m">Distance: 0.4m</string>
+    <string name="distance_0_9m">Distance: 0.9m</string>
+    <string name="distance_0_6m">Distance: 0.6m</string>
+    <string name="distance_0_4m1">Distance: 0.4m</string>
+    <string name="distance_0_4m2">Distance: 0.4m</string>
+    <string name="distance_0_7m">Distance: 0.7m</string>
+    <string name="active">Active</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="expired">Expired</string>
+    <string name="location_car_park_2">Location: Car Park 2</string>
+    <string name="date_20th_jan_2021">Date: 20th Jan 2021</string>
+    <string name="details">DETAILS</string>
+    <string name="registration_plate_rndmregplate">Registration Plate: RNDMREGPLATE</string>
+    <string name="dots">...</string>
+    <string name="ticket_type_5_50_all_day">Ticket Type: £5.50 All Day</string>
+    <string name="account">Account</string>
+    <string name="information">Information</string>
+    <string name="maps">Maps</string>
+    <string name="sessions">Sessions</string>
+    <string name="parking">Parking</string>
+    <string name="mapsmain">Maps</string>
+    <string name="sessionsmain">Sessions</string>
+    <string name="parkmain">Park</string>
+    <string name="accountmain">Account</string>
+    <string name="informationmain">Information</string>
+    <string name="todo6">TODO</string>
+    <string name="todo7">TODO</string>
+    <string name="todo10">TODO</string>
+    <string name="todo11">TODO</string>
+    <string name="todo12">TODO</string>
+    <string name="todo13">TODO</string>
+    <string name="todo14">TODO</string>
+
 </resources>

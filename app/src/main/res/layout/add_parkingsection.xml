@@ -6,13 +6,539 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageView
+        android:id="@+id/background5"
+        android:layout_width="755dp"
+        android:layout_height="971dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <ImageView
+        android:id="@+id/warwicklogo5"
+        android:layout_width="284dp"
+        android:layout_height="149dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/warwicklogo" />
+
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="Testing 123"
+        android:id="@+id/centralcampustext"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/central_campus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/centralcampus"
+        app:layout_constraintTop_toTopOf="@+id/centralcampus" />
+
+    <TextView
+        android:id="@+id/kirbycornertext"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/kirby_corner"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/kirbycorner"
+        app:layout_constraintTop_toTopOf="@+id/kirbycorner" />
+
+    <TextView
+        android:id="@+id/gibbethilltext"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/gibbet_hill"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gibbethill"
+        app:layout_constraintTop_toTopOf="@+id/gibbethill" />
+
+    <TextView
+        android:id="@+id/westwoodtext"
+        android:layout_width="225dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/westwood_campus"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/westwoodcampus"
+        app:layout_constraintTop_toTopOf="@+id/westwoodcampus" />
+
+    <TextView
+        android:id="@+id/cryfieldvillagetext"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/cryfield_village"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cryfieldvillage"
+        app:layout_constraintTop_toTopOf="@+id/cryfieldvillage" />
+
+    <TextView
+        android:id="@+id/lynchgatetext"
+        android:layout_width="174dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/allerta"
+        android:text="@string/lynchgate"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/lynchgate"
+        app:layout_constraintTop_toTopOf="@+id/lynchgate" />
+
+    <Button
+        android:id="@+id/recent"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/curvedbuttonshape"
+        android:text="@string/recent"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/nearby"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/curvedbuttonshape"
+        android:text="@string/nearby"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/permit"
+        android:layout_width="124dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_weight="1"
+        android:background="@drawable/curvedbuttonshape"
+        android:text="@string/permits"
+        android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/centralcampus"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kirbycorner"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="188dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/gibbethill"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="276dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/westwoodcampus"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cryfieldvillage"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="452dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lynchgate"
+        android:layout_width="325dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/buttonshape"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/centralcampusspaces"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_147_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/centralcampus"
+        app:layout_constraintTop_toTopOf="@+id/centralcampus" />
+
+    <TextView
+        android:id="@+id/statusquiet"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_quiet"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/centralcampus"
+        app:layout_constraintTop_toTopOf="@+id/centralcampus" />
+
+    <TextView
+        android:id="@+id/distance1"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_4m"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/centralcampus"
+        app:layout_constraintTop_toTopOf="@+id/centralcampus" />
+
+    <TextView
+        android:id="@+id/kirbycornerspaces"
+        android:layout_width="223dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_129_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/kirbycorner"
+        app:layout_constraintTop_toTopOf="@+id/kirbycorner" />
+
+    <TextView
+        android:id="@+id/statusquiet2"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_quiet"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/kirbycorner"
+        app:layout_constraintTop_toTopOf="@+id/kirbycorner" />
+
+    <TextView
+        android:id="@+id/distance2"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_4m1"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/kirbycorner"
+        app:layout_constraintTop_toTopOf="@+id/kirbycorner" />
+
+    <TextView
+        android:id="@+id/gibbethillspaces"
+        android:layout_width="224dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_172_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gibbethill"
+        app:layout_constraintTop_toTopOf="@+id/gibbethill" />
+
+    <TextView
+        android:id="@+id/statusquiet3"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_quiet"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gibbethill"
+        app:layout_constraintTop_toTopOf="@+id/gibbethill" />
+
+    <TextView
+        android:id="@+id/distance3"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_9m"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gibbethill"
+        app:layout_constraintTop_toTopOf="@+id/gibbethill" />
+
+    <TextView
+        android:id="@+id/westwoodcampusspaces"
+        android:layout_width="217dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_93_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/westwoodcampus"
+        app:layout_constraintTop_toTopOf="@+id/westwoodcampus" />
+
+    <TextView
+        android:id="@+id/moderate"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_moderate"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/westwoodcampus"
+        app:layout_constraintTop_toTopOf="@+id/westwoodcampus" />
+
+    <TextView
+        android:id="@+id/distance4"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_7m"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/westwoodcampus"
+        app:layout_constraintTop_toTopOf="@+id/westwoodcampus" />
+
+    <TextView
+        android:id="@+id/cryfieldvillagespaces"
+        android:layout_width="200dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_0_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cryfieldvillage"
+        app:layout_constraintTop_toTopOf="@+id/cryfieldvillage" />
+
+    <TextView
+        android:id="@+id/full"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_full"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cryfieldvillage"
+        app:layout_constraintTop_toTopOf="@+id/cryfieldvillage" />
+
+    <TextView
+        android:id="@+id/distance5"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_4m2"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/cryfieldvillage"
+        app:layout_constraintTop_toTopOf="@+id/cryfieldvillage" />
+
+    <TextView
+        android:id="@+id/lynchgatespaces"
+        android:layout_width="235dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/spaces_available_45_200"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/lynchgate"
+        app:layout_constraintTop_toTopOf="@+id/lynchgate" />
+
+    <TextView
+        android:id="@+id/busy"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/status_busy"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/lynchgate"
+        app:layout_constraintTop_toTopOf="@+id/lynchgate" />
+
+    <TextView
+        android:id="@+id/distance6"
+        android:layout_width="221dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/amiko"
+        android:textColor="#000000"
+        android:text="@string/distance_0_6m"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/lynchgate"
+        app:layout_constraintTop_toTopOf="@+id/lynchgate" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/centralcampus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/centralcampus"
+        app:layout_constraintTop_toTopOf="@+id/centralcampus"
+        app:srcCompat="@drawable/greenquieticon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/kirbycorner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/kirbycorner"
+        app:layout_constraintTop_toTopOf="@+id/kirbycorner"
+        app:srcCompat="@drawable/greenquieticon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/gibbethill"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/gibbethill"
+        app:layout_constraintTop_toTopOf="@+id/gibbethill"
+        app:srcCompat="@drawable/greenquieticon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/westwoodcampus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/westwoodcampus"
+        app:layout_constraintTop_toTopOf="@+id/westwoodcampus"
+        app:srcCompat="@drawable/orangemoderateicon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cryfieldvillage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/cryfieldvillage"
+        app:layout_constraintTop_toTopOf="@+id/cryfieldvillage"
+        app:srcCompat="@drawable/greyfullicon"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/lynchgate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/lynchgate"
+        app:layout_constraintTop_toTopOf="@+id/lynchgate"
+        app:srcCompat="@drawable/redbusyicon"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/parkingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parking"
+        android:fontFamily="@font/amiko"
+        android:textColor="#673AB7"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/permit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

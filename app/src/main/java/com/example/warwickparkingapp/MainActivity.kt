@@ -6,8 +6,10 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.webkit.WebViewClient
 
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.add_infosection.*
 import kotlinx.android.synthetic.main.content_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         goToPark.setOnClickListener {
-         startActivity(Intent(this, AddParkSection::class.java))
+            startActivity(Intent(this, AddParkSection::class.java))
         }
 
         goToSessions.setOnClickListener {
@@ -36,5 +38,8 @@ class MainActivity : AppCompatActivity() {
         goToInfo.setOnClickListener {
             startActivity(Intent(this, AddInfoSection::class.java))
         }
+
+
+        }
     }
-}
+
